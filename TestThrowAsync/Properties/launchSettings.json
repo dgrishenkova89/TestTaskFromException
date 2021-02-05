@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "TestThrowAsync": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
