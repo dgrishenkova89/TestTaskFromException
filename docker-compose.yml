@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  testthrowasync:
+    image: ${DOCKER_REGISTRY-}testthrowasync
+    build:
+      context: .
+      dockerfile: TestThrowAsync/Dockerfile
